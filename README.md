@@ -11,7 +11,7 @@ Tout d'abord il faut cloner ce repertoire git là où on veut:
 git clone https://github.com/Lucas999999/WIK-DPS-TP01.git
 ```
 
-Ensuite il nous faut cargo, le gestionnaire de packets de Rust, c'est le plus simple pour lancer le projet.
+Ensuite il nous faut cargo, le gestionnaire de paquets de Rust, c'est le plus simple pour lancer le projet.
 voici la doc de [cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html).
 
 Sur linux:
@@ -23,7 +23,7 @@ Sur windows:
 
 [rustup-init.exe](https://win.rustup.rs/)
 
-Ou alors avec votre gestionnaire de packets préféré.
+Ou alors avec votre gestionnaire de paquets préféré.
 ### Utilisation
 
 Maintenant que nous avons tout ce qu'il faut il ne reste plus qu'à lancer le projet, c'est la partie la plus simple, il suffit de taper:
