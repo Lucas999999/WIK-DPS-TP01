@@ -7,7 +7,7 @@ use std::{
 fn main() {
    let port = match env::var("PING_LISTEN_PORT"){
     Ok(env_port) => format!("0.0.0.0:{env_port}"),
-    Err(_e) => format!("0.0.0.0:7878"),
+    Err(_e) => format!("0.0.0.0:3333"),
     };
     let listener = TcpListener::bind(port).unwrap();
     for stream in listener.incoming() {
