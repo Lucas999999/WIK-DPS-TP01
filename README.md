@@ -32,7 +32,7 @@ Maintenant que nous avons tout ce qu'il faut il ne reste plus qu'à lancer le pr
 cargo run
 ```
 
-on peut également préciser un port sur lequel le serveur va écouter pour cela il faut définir une variable d'environnement "PING_LISTEN_PORT" qui a pour valeur le port voulu.
+on peut également préciser un port sur lequel le serveur va écouter (le port de base est 3333) pour cela il faut définir une variable d'environnement "PING_LISTEN_PORT" qui a pour valeur le port voulu.
 
 Pour créer une variable d'environnement:
 
